@@ -8,7 +8,8 @@
     "training:start": "npm run training-guide --- start",
     "training:sync": "npm run training-guide --- sync",
     "training:submit": "npm run training-guide --- submit",
-    "training:back": "npm run training-guide --- back"
+    "training:back": "npm run training-guide --- back",
+    "test": "test -e step-3.valid.txt"
   },
   "repository": {
     "type": "git",
