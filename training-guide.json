@@ -1,0 +1,24 @@
+{
+    "steps" : [
+        "step-1",
+        {
+            "branchName" : "step-2",
+            "instruction": "step-2-my-instruction.md"
+        },
+        {
+            "branchName" : "step-3",
+            "validator": "npm run test"
+        },
+        {
+            "branchName" : "step-4",
+            "interactive" : true
+        },
+        {
+            "branchName" : "step-5",
+            "interactive" : true,
+            "validator": "npm run valid-test"
+        },
+        "step-6"
+
+    ]
+}

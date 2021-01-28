@@ -1,0 +1,26 @@
+{
+  "name": "training-guide-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "training:start": "training-guide start",
+    "training:sync" : "training-guide sync",
+    "training:submit": "training-guide submit",
+    "training:back" : "training-guide back"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludorival/training-guide-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludorival/training-guide-template/issues"
+  },
+  "devDependencies": {
+    "training-guide": "../../training-guide"
+  },
+  "homepage": "https://github.com/ludorival/training-guide-template#readme"
+}
